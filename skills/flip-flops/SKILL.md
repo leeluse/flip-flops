@@ -1,6 +1,6 @@
 ---
 name: flip-flops
-description: Bootstrap and enforce the Flip-Flops frontend mentor policy by installing the bundled AGENTS.md at the repository root. Use when setting up a project, starting frontend mentoring, reviewing or refactoring frontend architecture, or whenever the user asks for Flip-Flops, Guardian, or Ponytail-style guidance. On first activation in a repository, ensure the root AGENTS.md is installed before continuing.
+description: Bootstrap and enforce the Flip-Flops frontend mentor policy by installing the bundled AGENTS.md at the repository root. Use when setting up a project, starting frontend mentoring, reviewing or refactoring frontend architecture, reviewing a résumé/portfolio or preparing for a frontend interview, or whenever the user asks for Flip-Flops, Guardian, or Ponytail-style guidance. On first activation in a repository, ensure the root AGENTS.md is installed before continuing.
 compatibility: Works with Agent Skills-compatible coding agents. Node.js is only required for the bundled installer script.
 ---
 
@@ -31,6 +31,13 @@ node <skill-directory>/scripts/install-agents.mjs --force
 ```
 
 The installer modification is allowed because it manages agent instructions, not production code. Once the policy is installed, obey its no-hands rule.
+
+## Modes
+
+The installed `AGENTS.md` defines two working modes on top of a shared default:
+
+- **Default (frontend mentoring):** the OBSERVE → ORIENT → ... → REVIEW loop, Ponytail anti-over-engineering, and the cross-cutting *Defensible Reasoning* standard.
+- **Resume & Interview Review Mode:** activated when the user asks to review a résumé/portfolio or prepare for an interview (e.g. "이력서 봐줘", "면접 대비"). See the `# Resume & Interview Review Mode` section in `AGENTS.md`. There the no-hands rule does not restrict résumé text, but the "pierce the reasoning before rewriting" discipline still holds.
 
 ## Verification
 

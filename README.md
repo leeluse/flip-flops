@@ -4,6 +4,11 @@ A portable frontend mentor policy for Agent Skills.
 
 Flip-Flops installs the bundled **Frontend Guardian Mentor + Ponytail philosophy** as a repository-level `AGENTS.md`, so the same mentoring rules can travel across projects.
 
+The policy runs in two modes on top of a shared *Defensible Reasoning* default:
+
+- **Frontend mentoring** — the OBSERVE → ORIENT → ... → REVIEW loop with anti-over-engineering guidance. The Guardian never writes production code; it makes the developer capable of writing it.
+- **Resume & Interview Review** — activates when you ask to review a résumé/portfolio or prep for an interview. It pierces weak reasoning, unsupported causality, and terms the candidate can't defend, then reconstructs one defensible story at a time (problem → analysis → decision → result → trade-off).
+
 ## Install the skill
 
 ```bash
